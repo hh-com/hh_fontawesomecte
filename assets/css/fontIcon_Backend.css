@@ -1,0 +1,70 @@
+/**
+ * @package hh_fontawesomecte
+ * Copyright (C) 2017 Harald Huber
+ * http://www.harald-huber.com
+ *
+ * Icon Widget Layout Backend (IconSelect.php)
+ *
+*/
+
+.fIcon:before
+{ 
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	content: "\f042";
+	color: #aaa;
+	font-size: 100%;
+}
+.backendIconSelect
+{
+	height: 450px;
+	overflow: scroll;
+	border: 1px solid #aaa;
+	padding-left: 4px;
+}
+.currentIcon
+{
+	padding: 3px;
+}
+.currentIcon span
+{
+	padding: 3px;
+	font-size: 18px;
+}
+.iSel
+{
+	padding: 15px;
+	float: left; 
+	border: 1px solid #aaa;
+	width: 52px;
+	font-size: 18px;
+	position: relative;
+	text-align: center;
+}
+.iSel .counter
+{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	font-size: 11px;
+	color: #999;
+}
+.iSel input,
+.iSel label
+{
+	cursor: pointer;
+	font-size: 18px;
+}
+.iSel i
+{
+	color: #999;
+	padding-left: 5px;
+	font-size: 11px;
+}
+.iSel.checked
+{
+	background-color: #ddd;
+	color: #333;
+}

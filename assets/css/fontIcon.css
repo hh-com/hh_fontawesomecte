@@ -1,0 +1,77 @@
+/**
+ * 
+ * @package hh_fontawesomecte
+ * Copyright (C) 2017 Harald Huber
+ * http://www.harald-huber.com
+ *
+ * Icon Layout Front- and Backend
+ *
+*/
+
+.fIcon
+{
+	display: inline;
+	margin: 0 5px;
+	line-height: 1em;
+}
+ li.fIcon
+ {
+	display: block;
+	line-height: inherit;
+	margin: auto;
+}
+.ce_IconHeadlineText .centerIcon
+{
+	text-align: center; 
+}
+.ce_IconHeadlineText .iconHeadline a
+{
+	text-decoration: none;
+}
+.fIcon.float_below
+{
+	display: block;
+	margin: 5px;
+}
+.fIcon.float_above
+{
+	display: block;
+	margin: 5px;
+}
+.fIcon.float_right
+{ 
+	display: inline;
+	margin: 0 5px;
+	float: right;
+}
+/*Default Font - Font Awesome*/
+.fIcon:before
+{ 
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	content: "\f042";
+	color: #aaa;
+	font-size: 100%;
+}
+a .fIcon:before
+{
+	color: #5aa726;
+}
+a:hover .fIcon:before
+{ 
+	color: #999;
+}
+/* Full Icon List in Frontend */
+#fullIconList ul
+{
+	margin: 0;
+	font-size: 150%;
+}
+#fullIconList ul li
+{
+	float: left;
+	width: 9%;
+	padding: 9px 0;
+}

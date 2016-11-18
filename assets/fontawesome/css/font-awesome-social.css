@@ -1,0 +1,39 @@
+.icon-pinterest, .icon-pinterest-sign, .fa-pinterest-square:before, .fa-pinterest:before{
+    color: #910101;
+}
+
+.icon-facebook, .icon-facebook-sign, .fa-facebook-square:before, .fa-facebook:before{
+    color: #3b5998;
+}
+
+.icon-twitter, .icon-twitter-sign, .fa-twitter-square:before, .fa-twitter:before{
+    color: #00a0d1;
+}
+
+.icon-vimeo, .icon-vimeo-sign, .fa-vimeo-square:before, .fa-vimeo:before{
+    color: #44bbff;
+}
+
+.icon-tumblr, .icon-tumblr-sign, .fa-tumblr-square:before, .fa-tumblr:before{
+    color: #34526f;
+}
+
+.icon-youtube, .icon-youtube-sign, .fa-youtube-square:before, .fa-youtube:before{
+    color: #c4302b;
+}
+
+.icon-linkedin, .icon-linkedin-sign, .fa-linkedin-square:before, .fa-linkedin:before{
+    color: #4875B4;
+}
+
+.icon-google-plus, .icon-google-plus-sign, .fa-google-plus-square:before, .fa-google-plus:before{
+    color: #C63D2D;
+}
+
+.icon-foursquare, .icon-foursquare-sign, .fa-foursquare-square:before, .fa-foursquare:before{
+    color: #8FD400;
+}
+
+.icon-instagram, .icon-instagram-sign, .fa-instagram-square:before, .fa-instagram:before{
+    color: #4E433C;
+}
